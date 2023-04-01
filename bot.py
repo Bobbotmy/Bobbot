@@ -1,4 +1,4 @@
-```python
+python
 import telebot
 
 TOKEN = 6282194881:AAH7-SAEWqpfOY8FgkvT9YQbxvN6mU2_wok
@@ -14,4 +14,3 @@ def echo_message(message):
     bot.reply_to(message, 'Извините, я не понимаю вашего запроса. Пожалуйста, задайте другой вопрос.')
 
 bot.polling()
-```
