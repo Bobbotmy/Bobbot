@@ -1,7 +1,7 @@
-python
+#!/usr/bin/env python
 import telebot
 
-TOKEN = 6282194881:AAH7-SAEWqpfOY8FgkvT9YQbxvN6mU2_wok
+TOKEN = "6282194881:AAH7-SAEWqpfOY8FgkvT9YQbxvN6mU2_wok"
 
 bot = telebot.TeleBot(TOKEN)
 
